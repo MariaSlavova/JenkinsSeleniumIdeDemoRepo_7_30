@@ -7,12 +7,6 @@ using OpenQA.Selenium.Chrome;
 public class TC01IfUserIsInvalidTryAgainTest
 {
 
-    ChromeOptions options = new ChromeOptions();
-    options.AddArgument("headless");
-    options.AddArgument("no-sandbox");
-    options.AddArgument("disable-dev-shm-usage");
-    options.AddArgument("disable-gpu");
- options.AddArgument("window-size=1920x1080");
     private IWebDriver driver;
     public IDictionary<string, object> vars { get; private set; }
     private IJavaScriptExecutor js;
